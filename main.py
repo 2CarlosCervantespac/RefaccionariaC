@@ -8,8 +8,7 @@ from fpdf import FPDF
         
 from referencias import *
 from conexion import Comunicacion
-
-
+#from login import iniciar_sesion
 
 
 
@@ -698,9 +697,9 @@ class VentanaPrincipal(QMainWindow):
         pdf.output('hoja.pdf')
         
 
-if __name__ == "__main__":
-     app = QApplication(sys.argv)
-     mi_app = VentanaPrincipal()
-     mi_app.show()
-     sys.exit(app.exec_())  
+#if __name__ == "__main__":
+ #    app = QApplication(sys.argv)
+  #   mi_app = VentanaPrincipal()
+   #  mi_app.show()
+    # sys.exit(app.exec_())  
 
